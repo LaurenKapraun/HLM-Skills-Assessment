@@ -1,0 +1,361 @@
+/* GENERAL */
+/* HEADER */
+/* BANNER HERO SECTION */
+/* TESTIMONIALS */
+/* LEAD FORM SECTION */
+/* FOOTER CALLOUT SECTION */
+/* FOOTER */
+/* min-width: 640px - Medium Break Point*/
+/* min-width: 1024px - Large Break Point*/
+/* min-width: 1440px */
+/* min-width: 2560px */
+/*------------------*/
+
+/* GENERAL */
+img {
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, p, li, .button, ::placeholder {
+   font-family: 'Lato', sans-serif; 
+}
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    white-space: nowrap;
+}
+[type=email], [type=tel], [type=text], textarea {
+    border: none;
+    box-shadow: none;
+}
+::placeholder {
+    color: #222222;
+    opacity: .5;
+}
+
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 1rem 0;
+}
+.header-logo {
+    padding-bottom: 1em;
+}
+.header-tagline {
+    color: #9F7857;
+    max-width: 60%;
+    margin: 0 auto 1em auto;
+}
+.header .cell:nth-child(3) p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.header .cell:nth-child(3) p:nth-child(1) {
+    color: #0361B8;
+}
+.header-phone_number {
+    font-weight: 800;
+}
+
+/* BANNER HERO SECTION */
+.banner_hero_section {
+    background: url("../images/home-bg-slider1.png");
+    background-size: cover;
+    padding: 4em 1em;
+    position: relative;
+}
+.banner_hero_section-text {
+    color: #fff;
+    text-align: center;
+}
+.banner_hero_section-text-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.banner_hero_section-text-header-cta {
+    position: relative;
+    display: inline-block;
+}
+.banner_hero_section-text-header-cta img {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.banner_hero_section-text-paragraph {
+    font-weight: 400;
+    color: #E8D5BC;
+}
+.banner_hero_section hr {
+    width: 50%;
+    border-color: #E8D5BC;
+}
+.banner_hero_section .button {
+    background-color: rgba(0, 0, 9, .5);
+    font-weight: 900;
+    border: 1px solid #fff;
+}
+.banner_hero_section .button:hover, .banner_hero_section .button:active, .banner_hero_section .button:focus {
+    background-color: rgba(0, 0, 9, 1);
+}
+.banner_hero_section .button::after {
+    content: url("../images/button-arrow-white.png");
+    vertical-align: middle;
+    padding: 0 0 0 .5em;
+}
+.banner_hero_section-text-trex_logo {
+    width: 50%;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background: url("../images/testimonial_background.png");
+    background-size: cover;
+    padding: 3em 1em;
+    position: relative;
+    text-align: center;
+}
+.testimonials .cell {
+    color: #5F3310;
+    font-weight: 700;
+    font-style:italic;
+}
+.testimonials hr {
+    border-color: #9F7857;
+}
+.testimonials_title {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+.testimonials_stars {
+    margin-bottom: 1rem;
+}
+
+/* LEAD FORM SECTION */
+.lead_form_section {
+    background: url("../images/form_background.png");
+    background-size: cover;
+    padding: 3em 1em;
+    position: relative;
+    color: #fff;
+}
+.lead_form_section ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+.lead_form_section li {
+    font-weight: 700;
+    font-style: italic;
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+    line-height: 1;
+    padding: 0 0 1em 1.5em;
+}
+.lead_form_section-left p {
+    margin-top: 1em;
+}
+.lead_form_section-right-outer {
+    background-color: #91CAFF;
+}
+.lead_form_section-right-inner {
+    padding: 1em;
+    background-repeat: no-repeat;
+    background: url(../images/clouds.png), rgba(145, 202, 255, .65);
+    background-position: center top;
+    background-blend-mode: color;
+}
+.lead_form_section-right-inner h3 {
+    text-shadow: 0px 2px 6px #004E96;
+    text-align: center;
+}
+.lead_form_section-right-inner-req {
+    color: #0361B8;
+    font-weight: 700;
+    text-align: center;
+}
+.lead_form_section-right-inner .submit {
+    width: 100%;
+    background-color: #0361B8;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 1em;
+    font-weight: 700;
+}
+.lead_form_section-right-inner .submit:hover, .lead_form_section-right-inner .submit:active, .lead_form_section-right-inner .submit:focus {
+    background-color: rgba(3, 97, 184, .5);
+}
+
+/* FOOTER CALLOUT SECTION */
+.footer_callout_section {
+    background-color: #0361B8;
+    color: #fff;
+    padding: 2em 1em;
+    text-align: center;
+}
+.footer_callout_section p, .footer_callout_section h2 {
+    margin: 0 auto;
+}
+.footer_callout_section-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.footer_callout_section-phone {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color:#22170F;
+    color: #9F7857;
+    text-align: center;
+    padding: 1em;
+    font-weight: 300;
+}
+.footer_links p {
+    display: inline-block;
+}
+.footer_links a {
+    color: #9F7857;
+    border-bottom: 1px solid #9F7857;
+}
+.footer_links a:hover, .footer_links a:active, .footer_links a:focus {
+    opacity: .5;
+    -webkit-transition: opacity .25s ease-out,color .25s ease-out;
+    transition: opacity .25s ease-out,color .25s ease-out;
+}
+.footer_links p::after {
+    content: " - ";
+}
+.footer_links p:last-child::after {
+    content: "";
+}
+
+/* min-width: 640px - Medium Break Point*/
+@media screen and (min-width: 640px) {
+    /* GENERAL */
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* HEADER */
+    .header-tagline {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* BANNER HERO SECTION */
+    .banner_hero_section-text-header {
+        font-size: 2rem;
+    }
+    .banner_hero_section hr {
+        width: 90%;
+    }
+    .banner_hero_section-text-trex_logo {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+    }
+    
+    /* LEAD FORM SECTION */
+    .lead_form_section li {
+        margin-left: .5rem;
+    }
+    
+    /* FOOTER CALLOUT SECTION */
+    .footer_callout_section p, .footer_callout_section h2 {
+       max-width: 80%;
+    }
+}
+
+/* min-width: 1024px - Large Break Point*/
+@media screen and (min-width: 1024px) {
+    /* HEADER */
+    .header-phone_number::before {
+        content: url("../images/hammer-header.png");
+        transform: scale(.7);
+        display: inline-block;
+        z-index: -1;
+        top: .4em;
+        position: relative;
+        margin-right: -.5rem;
+    }
+    .header-phone_number {
+        font-size: 1.5rem;
+    }
+    .header-logo img {
+        padding-bottom: 0;
+    }
+    .header-tagline {
+        max-width: 85%;
+    }
+    
+    /* BANNER HERO SECTION */
+    .banner_hero_section-text {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .banner_hero_section-text-header {
+        font-size: 1.8rem;
+    }
+    .banner_hero_section-text-paragraph {
+        font-size: 1.1rem;
+    }
+    .banner_hero_section-text-trex_logo {
+        right: 10%;
+        width: 15%;
+    }
+    
+    /* TESTIMONIALS */
+    .testimonials h2 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    /* LEAD FORM SECTION */
+    .lead_form_section-left p {
+        font-size: 1.2rem;
+    }
+    
+    /* FOOTER CALLOUT SECTION */
+    .footer_callout_section p, .footer_callout_section h2 {
+       max-width: 60%;
+    }
+}
+
+/* min-width: 1440px */
+@media screen and (min-width: 1440px) {
+    /* BANNER HERO SECTION */
+    .banner_hero_section-text-header {
+        font-size: 2.5rem;
+    }
+    
+    /* TESTIMONIALS */
+    .testimonials h2 {
+        width: 50%;
+    }
+    
+    /* FOOTER CALLOUT SECTION */
+    .footer_callout_section p, .footer_callout_section h2 {
+       max-width: 40%;
+    }
+}
+
+/* min-width: 2560px */
+@media screen and (min-width: 2560px) {
+    /* BANNER HERO SECTION */
+    .banner_hero_section-text {
+        max-width: 40%;
+    }
+    
+    /* FOOTER CALLOUT SECTION */
+    .footer_callout_section p, .footer_callout_section h2 {
+       max-width: 30%;
+    }
+}
